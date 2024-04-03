@@ -12,4 +12,4 @@ EXE file:
 you can edit code from main.rs at src folder
 ## Screenshots
 
-![Screenshot](downloader.png)
+![Screenshot](downloder.png)
