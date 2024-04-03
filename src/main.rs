@@ -2,7 +2,23 @@ use rustube;
 
 #[tokio::main]
 async fn main() {
-    println!("Enter your name:");
+    println!(
+        r"
+    
+░█████╗░░██████╗██╗░░██╗░█████╗░███╗░░██╗██████╗░███████╗██████╗░
+██╔══██╗██╔════╝██║░██╔╝██╔══██╗████╗░██║██╔══██╗██╔════╝██╔══██╗
+███████║╚█████╗░█████═╝░███████║██╔██╗██║██║░░██║█████╗░░██████╔╝
+██╔══██║░╚═══██╗██╔═██╗░██╔══██║██║╚████║██║░░██║██╔══╝░░██╔══██╗
+██║░░██║██████╔╝██║░╚██╗██║░░██║██║░╚███║██████╔╝███████╗██║░░██║
+╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝╚═╝░░╚═╝
+    "
+    );
+    println!("github =>     https://github.com/hamdymohamedak ");
+    println!("Linkedin => https://www.linkedin.com/in/hamdy-askander-b67b32246/ ");
+    println!("Facebook =>   https://www.facebook.com/hamdy.elgokar.5 ");
+
+
+    println!("Enter Video Name:");
 
     let mut name = String::new();
     // Read user name input
